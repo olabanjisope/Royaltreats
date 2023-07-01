@@ -1,0 +1,243 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* WHOLE BODY  */
+
+main{
+    background: #E5E5E5;
+    width: 105vw;
+    height: 105vh;
+}
+
+/* MENU HEADER */
+
+main p{
+    position: absolute;
+    width: 400px;
+    left: 200px;
+    top: 10px;
+    text-align: center;
+    border-bottom: 1px solid #F1D5BB;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 50px;
+    line-height: 63px;
+    color: #000000;
+}
+    
+
+main .icon_box{
+    position: absolute;
+    width: 100px;
+    height: 630px;
+    left: 56px;
+    top: 30px;
+    background: #0C0B0B;
+    border-radius: 24px;
+
+}
+
+
+main .icon_box ul li{
+    list-style-type: none;
+    color: #ffffff;
+    
+}
+
+main .icon_box ul #icon_1 a{
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 70px;
+    line-height: 102px;
+    color: #F1D5BB;
+    /* border: 1px solid ; */
+    padding: 0px 0px 0px 30px;
+    box-sizing: border-box;
+}
+
+main .icon_box ul #icon_2 a{
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 102px;
+    color: #F1D5BB;
+    padding: 0px 0px 0px 30px;
+    box-sizing: border-box;
+}
+
+main .icon_box ul #icon_2:hover{
+    background: #F1D5BB;
+    width: 100px;
+} 
+
+main .icon_box ul #icon_2:hover,span:hover{
+    background: #F1D5BB;
+    width: 100px;
+    color: #000000;
+} 
+
+main .icon_box #icon_2 img:hover{
+    filter: invert(100%);
+}
+
+main .icon_box #icon_2 i{
+    color: white;
+}
+
+main .icon_box #icon_2 i:hover{
+    color: black;
+}
+
+
+
+
+main .icon_box ul .carts a{
+    font-family: 'Baloo Bhai';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 102px;
+    color: #F1D5BB;
+    padding: 0px 0px 0px 30px;
+    box-sizing: border-box;
+}
+
+main .icon_box ul .carts:hover{
+    background: #F1D5BB;
+    width: 100px;
+} 
+
+main .icon_box ul .carts:hover,span:hover{
+    background: #F1D5BB;
+    width: 100px;
+    color: #000000;
+} 
+
+main .icon_box .carts img:hover{
+    filter: invert(100%);
+}
+
+main .icon_box .carts i{
+    color: white;
+}
+
+main .icon_box .carts i:hover{
+    color: black;
+}
+/* main .icon_box a:link{
+
+}
+
+main .icon_box a:visited{
+
+}
+
+main .icon_box a:hover{
+    
+}
+
+main .icon_box a:active{
+
+} */
+
+
+main section{
+    width: 1095px;
+    height: 600px;
+    position: absolute; 
+    top: 80px;
+    left: 243px;
+}
+
+.meun_items_one,
+.meun_items_two{
+    display: flex;
+}
+
+.meun_items_two{
+    display: flex;
+}
+
+.meun_items_one .one,
+.meun_items_two .two{
+    position: relative; 
+    overflow: hidden;
+}
+
+
+.meun_items_one img{
+    margin: 10px 25px 0px 40px;
+    width: 200px;
+    height: 250px;
+}
+
+
+.meun_items_two img{
+    margin: 20px 25px 0px 40px;
+    width: 200px;
+    height: 250px;
+} 
+
+.meun_items figcaption{
+    text-align: center;
+}
+
+.meun_items .add-cart {
+    position: absolute;
+    width: 200px;
+    cursor: pointer;
+    opacity: 0;
+    background-color: #F1D5BB;
+    transition: all 0.3s ease-in-out;
+}
+
+.one:hover .cart1,
+.one:hover .cart2,
+.one:hover .cart3,
+.one:hover .cart4{
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 2px;
+    text-align: center;
+    margin: 0 0 0 17px;
+    left: 23px;
+    bottom: 22px;
+}
+
+
+.two:hover .cart5,
+.two:hover .cart6,
+.two:hover .cart7,
+.two:hover .cart8{
+    opacity: 1;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 2px; 
+    text-align: center;
+    margin: 0 0 0 17px;
+    left: 23px;
+    bottom: 22px;
+   
+}
+.one:hover a{
+    text-decoration: none;
+    color: #000000;
+}
+
+
+.two:hover a{
+    text-decoration: none; 
+    color: #000000; 
+}
+
+
+.meun_items h5{
+    margin: 20px 0 0 0 ;
+}
